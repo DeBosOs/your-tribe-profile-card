@@ -49,6 +49,9 @@ li {
 }
 
 h2, p {
-    margin-left: 0;
+    display: flex;
+    justify-content: center;
     text-align: left;
+    margin-right: 50px;
+    margin-left: 50px;
 }
