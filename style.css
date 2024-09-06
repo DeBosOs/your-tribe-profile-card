@@ -3,18 +3,20 @@ main.content {
     justify-content: space-between;
 }
 
+body {
+    background-color: rgb(0, 166, 255);
+}
+
 .left-content {
     flex: 1;
-    margin-right: 20px;
+    margin-right: -10%;
 }
 
 .right-content {
     flex: 2;
     padding-left: 20px;
-}
-
-body {
-    background-color: rgb(0, 166, 255);
+    border: 5px solid black;
+    border-top: 0;
 }
 
 header {
@@ -29,18 +31,17 @@ ol {
     padding: 20px;
     margin-top: 0px;
     border-top: 0;
+    border-right: 0;
     padding-right: 0px;
     width: 100%;
 }
 
 ol>li>img {
-    width: 30%;
+    width: 10%;
 }
 
 li:first-child {
     margin-top: 10px;
-    display: flex;
-    justify-content: center;
 }
 
 li {
@@ -50,5 +51,4 @@ li {
 h2, p {
     margin-left: 0;
     text-align: left;
-    border: 5px solid black;
 }
